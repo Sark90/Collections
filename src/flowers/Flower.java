@@ -2,12 +2,12 @@ package flowers;
 
 public class Flower {
     private String name, color;
-    private double price;
+    //private double price;
 
     public Flower(String name, String color, double price) {
         this.name = name;
         this.color = color;
-        this.price = price;
+        //this.price = price;
     }
 
 
@@ -19,7 +19,7 @@ public class Flower {
         return color;
     }
 
-    public double getPrice() {
+/*    public double getPrice() {
         return price;
-    }
+    }*/
 }

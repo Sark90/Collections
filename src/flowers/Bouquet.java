@@ -14,12 +14,12 @@ public class Bouquet {
         this.flowers = flowers;
     }
 
-    public void showFlowers() {
+/*    public void showFlowers() {
         if (flowers == null) return;
         for (Flower f: flowers) {
             System.out.println("Name: " + f.getName() + ", color: " + f.getColor() + ", price: " + f.getPrice());
         }
-    }
+    }*/
 
     public Flower[] getFlowers() {
         return flowers;
